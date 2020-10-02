@@ -1,0 +1,1 @@
+const joinCompanyReviewByCompanyID = "SELECT theatercompanies.company_id, theatercompanies.companyName, reviews.profRating,reviews.worthWhileRatingFROM theatercompanies LEFT JOIN reviews USING (company_id) WHERE theatercompanies.company_id = ${id}"

@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.1",
+  "description": "A server for FourthWallReviews",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec npx babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zdenardi@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@greenlock/manager": "^3.1.0",
+    "@root/greenlock": "^4.0.4",
+    "acme-dns-01-route53": "0.0.1",
+    "acme-http-01-standalone": "^3.0.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "greenlock": "^4.0.4",
+    "greenlock-express": "^4.0.3",
+    "greenlock-store-fs": "^3.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.0",
+    "node": "^13.1.0",
+    "node-gyp": "^6.0.1",
+    "node-pre-gyp": "^0.14.0",
+    "nodemailer": "^6.4.2",
+    "passport": "^0.4.0",
+    "querystring": "^0.2.0",
+    "sanitize": "^2.1.0",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "nodemon": "^1.19.4"
+  }
+}
