@@ -65,7 +65,7 @@ const SearchComponent= ({companies}) => {
             searchResults.map((company,key) =>
             
             <Card 
-            className="card mt-3"
+            className=" card companyListCard  mt-3"
             key={key}>
               <Card.Body>
                 <Card.Title className="d-flex justify-content-center">

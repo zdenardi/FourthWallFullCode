@@ -1,8 +1,8 @@
 const Sequelize = require("sequelize");
-const DB_HOST=''
-const DB_USER=''
-const DB_PASSWORD=''
-const DB_NAME=''
+const DB_HOST='localhost'
+const DB_USER='webadmin'
+const DB_PASSWORD='1902Hyrule0811!!'
+const DB_NAME='4thwall'
 const UserModel = require("../models/User")
 const TheaterCompanyModel = require("../models/TheaterCompany")
 const ReviewModel = require("../models/Review")

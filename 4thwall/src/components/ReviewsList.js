@@ -41,7 +41,7 @@ const ReviewsList =({reviews}) => {
             <Accordion.Toggle as={Card.Header} eventKey="1">
               <Card.Header>
                 <Row>
-                  <Container className="text-center">
+                  <Container className=" ext-center">
                     <h5>{review.companyName}</h5>
                     <h6>Pay: {review.rateofPay ? review.rateofPay : "The user did not provide details on pay"}</h6>
                     <h6>Click to see full review</h6>

@@ -1,27 +1,33 @@
 {
   "name": "4thwall",
+  "description": "Portfolio project using React,Express,Bootstrap and Sass",
   "version": "0.1.2",
+  "author": "Zach DeNardi",
   "private": true,
   "proxy": "https://localhost:8001",
   "dependencies": {
-    "@material-ui/core": "^4.8.3",
-    "@material-ui/lab": "^4.0.0-alpha.39",
-    "axios": "^0.19.1",
-    "bootstrap": "^4.4.1",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "animate.css": "^4.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.3",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1",
     "jwt-decode": "^2.2.0",
-    "moment": "^2.24.0",
-    "query-string": "^6.11.1",
-    "react": "^16.12.0",
-    "react-admin": "^3.2.0",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "query-string": "^6.13.7",
+    "react": "^16.14.0",
+    "react-admin": "^3.10.3",
     "react-autosuggest": "^9.4.3",
-    "react-bootstrap": "^1.0.0-beta.16",
+    "react-bootstrap": "^1.4.0",
     "react-bootstrap-date-picker": "^5.1.0",
-    "react-dom": "^16.12.0",
+    "react-dom": "^16.14.0",
     "react-hook-form": "^3.29.4",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.0",
-    "react-select": "^3.0.8",
-    "whatwg-fetch": "^3.0.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-select": "^3.1.1",
+    "whatwg-fetch": "^3.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.30.0"
   }
 }

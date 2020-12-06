@@ -1,4 +1,4 @@
-import React,{useContext} from 'react';
+import React from 'react';
 import Homepage from './pages/HomePage';
 import AddCompany from './pages/AddCompany';
 import CompanyListPage from './pages/CompanyListPage';
@@ -7,8 +7,8 @@ import CompanyDetail from './pages/CompanyDetailPage';
 import NotFoundPage from './pages/NotFoundPage';
 import Register from './pages/UserCreate';
 import Login from './pages/LoginUser';
-import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
+import '../src/css/customCSS/style.scss'
 import {BrowserRouter as Router,
       Route,Switch} from 'react-router-dom'
 import NavBar from './NavBar';

@@ -1,0 +1,48 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+//custom SCSS and overwrites
+@import './_custom';
+
+
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import '../../../node_modules/animate.css/animate.css';
+
+
+
+  //Cards
+  .card {
+    font-family:Karla;
+    border-style: solid;
+    background-color: white;
+    
+  }
+  .card-header{
+    background-color: white;
+  }
+  .card-footer{
+    background-color:#B6D0F7
+  }
+
+  .companyListCard {
+    border-color: #5995ed
+
+  }
+
+  //navBar
+  .navbar{
+    background-color:#dfeafb;
+    font-family: Karla;
+  }
+  .nav-logo{
+   width: 100px;
+   height: auto;
+  }
+
+  //background
+  .background{
+
+    background-color: rgba(182, 208, 247, 0.4)
+  }

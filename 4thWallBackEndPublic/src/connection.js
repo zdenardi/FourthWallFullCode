@@ -6,10 +6,10 @@ module.exports ={
   connection: mysql.createPool({
     multipleStatements:true,
     connectionLimit: 10,
-    host:DB_HOST,
-    user:DB_USER,
-    password:DB_PASSWORD,
-    database:DB_NAME,
+    host:'localhost',
+    user:'webadmin',
+    password:'WebAdmin19020811!!',
+    database:'4thwall',
     dialect: 'mysql',
     timezone: 'UTC',
   })

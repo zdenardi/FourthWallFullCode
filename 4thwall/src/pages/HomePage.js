@@ -6,7 +6,7 @@ import Button from '../components/utilcomponents/LinkButton'
 import {AuthContext} from '../utils/AuthContext'
 import PayPalButton from '../components/PayPalButton'
 import changelog from './data/changelog'
-
+import logo from '../img/FourthWall.png'
 
 const HomePage =() => {
   const [reviewsInfo,setReviewsInfo] =useState([]);
@@ -37,21 +37,14 @@ const HomePage =() => {
   return(
 
   <React.Fragment>
-  <style type="text/css">
-    {`#homePageJumbo{
-      background-color: rgba(0, 0, 255, 0.1); 
-    }`}>
-  </style>
-  <Jumbotron fluid id="homePageJumbo" className="mt-4">
+   {/* <Jumbotron fluid id="homePageJumbo" className="mt-4"> */}
       <Container>
-        <h1 className="pb-1 display-4">FourthWall</h1>
-          <p className="font-italic">
-          “If you don’t value your time, neither will others. Stop giving away your time and talents. Value what you know and start charging for it.” – Kim Garst
+        <img className="pt-3" src={logo}/>
+          <p className="animate__animated animate__fadeIn font-italic">
+          “Upon the conduct of each depends the fate of all.” – Alexander the Great
           </p>
-
-
       </Container>
-  </Jumbotron>
+  {/* </Jumbotron> */}
 
 
   
@@ -84,12 +77,12 @@ const HomePage =() => {
     </Container>    
     :
     <Container className="text-center border-bottom">
-    <h3 className="text-center pb-2">Login to start sharing your experiences.</h3>
-    <Button className="btn btn-primary mb-4" to="/login">Login</Button>
-    <Alert variant='light'>
-    Are you a company and want to know what you can do? 
+      <h3 className="text-center pb-2">Login to start sharing your experiences.</h3>
+      <Button className="btn btn-primary mb-4" to="/login">Login</Button>
+      <Alert variant='light'>
+        Are you a company and want to know what you can do? 
       <Alert.Link href="/forcompanies"> Click here!</Alert.Link> 
-    </Alert>
+      </Alert>
 
     </Container>
     }
@@ -106,9 +99,9 @@ const HomePage =() => {
     </Container>
   
   
-  <Container className="pt-5">
+  <div className="background pt-5">
     <ListCompanies companies={companies}/>  
-  </Container>
+  </div>
   
 
   
